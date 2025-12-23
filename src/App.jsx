@@ -1,5 +1,7 @@
+import MobileLayout from "./components/MobileLayout";
+
 const App = () => {
-	return <div>App</div>;
+	return <MobileLayout>MobileLayout</MobileLayout>;
 };
 
 export default App;
