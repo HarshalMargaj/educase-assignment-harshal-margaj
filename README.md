@@ -1,16 +1,19 @@
-# React + Vite
+# Educase Assignment - Harshal Margaj
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains my submission for the **Educase assignment**.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **ReactJS** for building the UI
+-   **TailwindCSS** for styling
+    -   Used **Tailwind arbitrary classes** (`text-[16px]`, `w-[22px]`, etc.) to ensure **pixel-perfect UI** according to the design specifications.
 
-## React Compiler
+## Links
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   **Repository:** [https://github.com/HarshalMargaj/educase-assignment-harshal-margaj](https://github.com/HarshalMargaj/educase-assignment-harshal-margaj)
+-   **Deployed Project:** [https://educase-assignment-harshal-margaj.vercel.app/](https://educase-assignment-harshal-margaj.vercel.app/)
+-   **Resume:** [https://drive.google.com/file/d/1zy0QvOaZbxY_4vm2gLQikhYKg1hsJ7hq/view?usp=sharing](https://drive.google.com/file/d/1zy0QvOaZbxY_4vm2gLQikhYKg1hsJ7hq/view?usp=sharing)
 
-## Expanding the ESLint configuration
+## Notes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This assignment demonstrates my ability to build **pixel-perfect UI** with React and TailwindCSS while following given design specifications.
