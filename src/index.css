@@ -12,6 +12,7 @@ body,
 	--color-secondary: #6c25ff;
 	--bg-color-primary: #6c25ff;
 	--bg-color-secondary: #cbcbcb;
+	--shadow: 0px 3px 6px #00000007;
 }
 
 @layer utilities {
@@ -26,5 +27,8 @@ body,
 	}
 	.bg-secondary {
 		background-color: var(--bg-color-secondary);
+	}
+	.shadow {
+		box-shadow: var(--shadow);
 	}
 }
