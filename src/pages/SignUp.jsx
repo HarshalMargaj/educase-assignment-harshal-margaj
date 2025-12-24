@@ -53,8 +53,6 @@ const SignUp = () => {
 		agency: "yes",
 	});
 
-	console.log(userInput);
-
 	return (
 		<div className="flex flex-col justify-between px-[20px] pt-[40px] pb-[30px] h-full">
 			<div className="space-y-[31px]">
