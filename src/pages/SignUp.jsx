@@ -1,7 +1,11 @@
 import React from "react";
 
 const SignUp = () => {
-	return <div>signup</div>;
+	return (
+		<div>
+			<div className="text-primary">Create your PopX account</div>
+		</div>
+	);
 };
 
 export default SignUp;

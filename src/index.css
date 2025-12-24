@@ -6,3 +6,25 @@ body,
 	height: 100%;
 	font-family: "Rubik", sans-serif;
 }
+
+:root {
+	--color-primary: #1d2226;
+	--color-secondary: #6c25ff;
+	--bg-color-primary: #6c25ff;
+	--bg-color-secondary: #cbcbcb;
+}
+
+@layer utilities {
+	.text-primary {
+		color: var(--color-primary);
+	}
+	.text-secondary {
+		color: var(--color-secondary);
+	}
+	.bg-primary {
+		background-color: var(--bg-color-primary);
+	}
+	.bg-secondary {
+		background-color: var(--bg-color-secondary);
+	}
+}

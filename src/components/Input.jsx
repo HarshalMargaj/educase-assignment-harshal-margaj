@@ -15,7 +15,7 @@ const Input = ({ id, placeholder, label, type = "text", onChange, value }) => {
 			</div>
 			<label
 				htmlFor={id}
-				className="absolute -top-[12px] left-[9px] w-[103px] px-[5px] bg-[#F7F8F9] text-[#6C25FF] text-[13px] font-normal "
+				className="absolute -top-[12px] left-[9px] w-[103px] px-[5px] bg-[#F7F8F9] text-secondary text-[13px] font-normal "
 			>
 				{label}
 			</label>

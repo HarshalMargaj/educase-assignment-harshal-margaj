@@ -12,11 +12,11 @@ const SignIn = () => {
 	return (
 		<div className="px-[20px] py-[40px] space-y-[33px]">
 			<div className="space-y-[14px]">
-				<div className="text-[#1D2226] font-medium text-[28px] leading-[36px]">
+				<div className="text-primary font-medium text-[28px] leading-[36px]">
 					Signin to your <br />
 					PopX account
 				</div>
-				<div className="text-[#1D2226] opacity-60 text-[18px] leading-[26px]">
+				<div className="text-primary opacity-60 text-[18px] leading-[26px]">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 				</div>
 			</div>
@@ -53,8 +53,8 @@ const SignIn = () => {
 					disabled={!userInput.email || !userInput.password}
 					className={`${
 						userInput.email && userInput.password
-							? "bg-[#6C25FF]"
-							: "bg-[#CBCBCB]"
+							? "bg-primary"
+							: "bg-secondary"
 					} text-[#FFFFFF] transition-all`}
 				>
 					Login
