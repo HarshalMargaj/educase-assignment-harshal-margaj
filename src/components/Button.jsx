@@ -6,7 +6,9 @@ const Button = ({ children, className, to, disabled = false }) => {
 		<Link to={`/${to}`}>
 			<button
 				disabled={disabled}
-				className={`p-[6px] rounded-[6px] text-[16px] font-medium h-[46px] cursor-pointer w-full ${className}`}
+				className={`p-[6px] rounded-[6px] text-[16px] font-medium h-[46px] ${
+					disabled ? "cursor-not-allowed" : "cursor-pointer"
+				} w-full leading-[17px] ${className}`}
 			>
 				{children}
 			</button>
