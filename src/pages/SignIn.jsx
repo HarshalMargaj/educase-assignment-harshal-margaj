@@ -34,6 +34,7 @@ const SignIn = () => {
 							})
 						}
 						required={true}
+						type="email"
 					/>
 					<Input
 						id="password"

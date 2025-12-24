@@ -1,5 +1,8 @@
 import React from "react";
 
+import CameraLogo from "../assets/camera.png";
+import ProfilePhoto from "../assets/photo.png";
+
 const Profile = () => {
 	return (
 		<div className="flex flex-col h-full">
@@ -11,13 +14,13 @@ const Profile = () => {
 					<div className=" my-[30px]  flex items-start gap-[20px]">
 						<div className="relative">
 							<img
-								src="/src/assets/photo.png"
+								src={ProfilePhoto}
 								alt="profile-photo"
 								height={76}
 								width={76}
 							/>
 							<img
-								src="/src/assets/camera.png"
+								src={CameraLogo}
 								alt="camera-logo"
 								height={23}
 								width={23}
