@@ -33,6 +33,7 @@ const SignIn = () => {
 								email: e.target.value,
 							})
 						}
+						required={true}
 					/>
 					<Input
 						id="password"
@@ -46,6 +47,7 @@ const SignIn = () => {
 								password: e.target.value,
 							})
 						}
+						required={true}
 					/>
 				</div>
 				<Button
